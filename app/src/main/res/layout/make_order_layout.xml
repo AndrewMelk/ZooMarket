@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+    android:text="Enter Name"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/orderName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:text="Enter Number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/orderNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+    <TextView
+        android:text="Enter  Item Name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/itemName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Enter Item Cost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/itemCost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <Button
+        android:text="@string/button_save"
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

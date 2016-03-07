@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ZooMarket</string>
+
+    <string name="order_name">Name order</string>
+    <string name="order_number">Number order</string>
+    <string name="item_name">Enter item name</string>
+    <string name="item_cost">Enter item cost</string>
+    <string name="button_save">Add</string>
+
+
+
+</resources>
